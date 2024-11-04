@@ -12,7 +12,7 @@ def create_window1():
 
     toggle_button = tk.Checkbutton(
         window, 
-        text="Toggle Me", 
+        text="Check Me", 
         variable=toggle_state, 
         onvalue=True, 
         offvalue=False,

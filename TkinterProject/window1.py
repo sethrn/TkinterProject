@@ -20,5 +20,8 @@ def create_window1():
     )
     toggle_button.pack(pady=10)
 
+    label2 = tk.Label(window, text="This is a new change to window1!")
+    label2.pack(pady=20)
+
     is_toggled = False
 

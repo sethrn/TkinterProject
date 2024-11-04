@@ -24,3 +24,6 @@ def create_window2():
             command=update_label
         )
         radio_button.pack(pady=5, anchor="w")
+
+    label2 = tk.Label(window, text="This is a new change to window2!!!!!")
+    label2.pack(pady=20)
